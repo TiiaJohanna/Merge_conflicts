@@ -1,4 +1,7 @@
-n = [1,5,6,7,343,6,5,23,100,52,234,6,2,98,432,234,5234676,7,5,45]
+import random
 
-for i in n:
-    print('Lmao kek')
+tarotDeck = ['hanged man', 'high priestess', 'wheel of fortune(green)', 'wheel of fortune(red)', 'death', 'tower', 'the fool', 'hermit', 'sun', 'moon','devil']
+
+card = random.choice(tarotDeck)
+
+print(card)
